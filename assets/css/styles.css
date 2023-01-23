@@ -64,16 +64,16 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
-  background-color: var(--bg-color);
+  background-color: #16697a;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav h1 {
-  color: var(--primary-color);
+  color: var(--bg-color);
 }
 
 nav a {
-  color: var(--primary-color);
+  color: var(--bg-color);
   transition: var(--transition);
 }
 nav a:hover {
@@ -121,6 +121,7 @@ nav ul li {
 .bio {
   width: 25rem;
   padding: 0.625rem;
+  margin-top: 10px;
   border-radius: 6px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
   text-align: center;
@@ -135,7 +136,23 @@ nav ul li {
   padding: 0.3rem 0;
 }
 
+.resume-btn {
+  width: 200px;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 4px;
+  background-color: #0d3b66;
+}
 
+.resume-btn:hover {
+  background-color: lightblue;
+}
+
+.resume-btn a {
+  color: white;
+  font-size: 25px;
+  
+}
 /* More About Me */
 .more-about {
   background-color: var(--bg-color);
